@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: arial;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(sad.webp); 
+   text-transform: uppercase;
+}
+header{
+ 
+    position: fixed;
+    top: 0;
+    color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid yellow;
+
+}
+main{
+    margin-top: 110px;
+
+}
+.days,
+.date{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    list-style-type: none;
+    gap: 5px;
+    margin: 5px;
+}
+.Calendar{
+   display: flex; 
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.month{
+    background-color: blanchedalmond;
+    border: 1px solid rgb(235, 216, 216);
+}
+.month h1{
+    background-color: rgb(12, 12, 11);
+    color: thistle;
+    text-align: center;
+    padding: 5px;
+}
+li{
+    background-color: beige;
+    border: 1px solid rgb(248, 245, 240);
+    text-align: center;
+}
